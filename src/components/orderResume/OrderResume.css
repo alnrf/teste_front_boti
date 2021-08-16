@@ -1,0 +1,60 @@
+@media (max-width: 600px) {
+  .resume {
+    height: 100%;
+    width: 100%;
+    display: flex;
+  }
+  .resume__container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 13px 13px 13px 13px;
+  }
+
+  .prices__row {
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  }
+
+  .total__row {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .resume__product,
+  .resume__shipping,
+  .resume__discount,
+  .resume__total {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .resume__product,
+  .resume__shipping,
+  .resume__discount {
+    font-weight: normal;
+  }
+
+  .resume__product,
+  .resume__shipping,
+  .resume__total {
+    color: #212122;
+  }
+
+  .resume__discount {
+    color: #ff7800;
+  }
+
+  .resume__total {
+    font-weight: bold;
+  }
+}

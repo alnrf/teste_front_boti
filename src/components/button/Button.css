@@ -1,0 +1,32 @@
+@media (max-width: 600px) {
+  .button {
+    height: 100%;
+    width: 100%;
+    display: flex;
+  }
+  .button__container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .button__component {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: #ff6c00;
+    border-bottom: 2px solid #d45a00;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .button__text {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #fff;
+  }
+}
