@@ -1,0 +1,75 @@
+@media screen and (max-width: 600px) {
+  .payment {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 0;
+  }
+  .payment__header {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .payment__header span {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+    color: #999;
+    margin: 0 0 0 8px;
+  }
+  .payment__container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.62);
+    padding: 13px 13px 25px 13px;
+    margin: 5px 0 0 0;
+  }
+
+  .payment__cardNumber,
+  .payment__cardName,
+  .payment__cardDueDate,
+  .payment__cardCVV {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .payment__cardName {
+    margin: 25px 0 25px 0;
+  }
+
+  .payment__cardCVV {
+    margin: 0 0 0 20px;
+  }
+
+  .payment__cardDueDateAndCVV {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .payment__cardLabel {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 14px;
+    color: #ccc;
+    margin: 0 0 5px 0;
+  }
+
+  .payment__input {
+    display: flex;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+  }
+  .payment__inputText {
+    width: 100%;
+    font-size: 14px;
+    line-height: 19px;
+    border: none;
+    outline: none;
+    margin: 0 0 0 13px;
+  }
+}

@@ -1,5 +1,4 @@
 import React from 'react'
-import OrderResume from '../orderResume/OrderResume'
 import './MainCard.css'
 
 function MainCard({ route, children }) {

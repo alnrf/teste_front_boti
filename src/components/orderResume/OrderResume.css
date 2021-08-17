@@ -3,6 +3,7 @@
     height: 100%;
     width: 100%;
     display: flex;
+    margin: 20px 0 0 0;
   }
   .resume__container {
     height: 100%;
@@ -21,6 +22,7 @@
     justify-content: space-between;
     display: flex;
     align-items: center;
+    margin: 0 0 9px 0;
   }
 
   .total__row {
@@ -28,6 +30,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 7px 0 0 0;
   }
 
   .resume__product,
@@ -36,6 +39,7 @@
   .resume__total {
     font-size: 14px;
     line-height: 17px;
+    user-select: none;
   }
 
   .resume__product,
