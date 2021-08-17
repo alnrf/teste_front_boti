@@ -1,17 +1,28 @@
 {
-  "useTabs": false,
-  "printWidth": 100,
-  "tabWidth": 2,
-  "singleQuote": true,
-  "trailingComma": "none",
-  "jsxBracketSameLine": false,
-  "parser": "babel",
+  "trailingComma": "es5",
+  "tabWidth": 4,
   "semi": false,
+  "singleQuote": true,
+
   "overrides": [
     {
-      "files": "*.css",
+      "files": ["*.js", "*.cjs", "*.mjs"],
       "options": {
-        "parser": "css"
+        "parser": "javascript"
+      }
+    },
+
+    {
+      "files": "*.ts",
+      "options": {
+        "parser": "typescript"
+      }
+    },
+
+    {
+      "files": ["*.json", "*.jsonc", ".babelrc", ".prettierrc"],
+      "options": {
+        "parser": "json"
       }
     }
   ]
